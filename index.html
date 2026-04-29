@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--  -->
+<!-- ¿Qué es y cómo funciona? -->
+HTML (HyperText Markup Language) funciona mediante un sistema de etiquetas anidadas. Imagina que es como una serie de cajas: unas están dentro de otras, estableciendo una jerarquía. El navegador lee este código de arriba hacia abajo y de afuera hacia adentro para "dibujar" (renderizar) el contenido en tu pantalla.
+
+<html lang="en">
+    <!-- Es la raíz de todo el documento. Todo lo que escribas debe estar dentro de esta etiqueta. -->
+
+El atributo lang="en" indica que el idioma principal del contenido es inglés. Si vas a escribir en español, lo ideal es cambiarlo a lang="es". Esto ayuda mucho a los buscadores (SEO) y a los lectores de pantalla para personas con discapacidad visual.
+
+<head>
+    <!-- El bloque <head> (La Cabeza) -->
+Aquí va la información técnica o "metadatos". Lo que pongas aquí no se ve directamente en la página blanca, pero es vital para que funcione bien.
+
+<meta charset="UTF-8">: 
+<!-- Es la codificación de caracteres. El estándar UTF-8 permite que se vean correctamente las tildes, las "ñ" y los emojis. Sin esto, podrías ver símbolos raros. -->
+
+<meta name="viewport" ...>: 
+<!-- Es fundamental para el diseño responsivo. Se encarga de que la web se adapte correctamente al tamaño de la pantalla (celulares, tablets o computadoras). -->
+
+<title>: 
+    <!-- Es el nombre que aparece en la pestaña del navegador. También es lo primero que lee Google al mostrar resultados de búsqueda. -->
+   
+ </head> 
+ <!-- la etiqueta le indica al navegador que ha terminado la sección de configuración y metadatos y que ya está listo para empezar a procesar el contenido visual o el cuerpo del documento. -->
+
+    <body>
+    <!-- Aquí es donde sucede la magia. Todo lo que sea visible para el usuario (textos, imágenes, botones, videos) debe ir obligatoriamente entre <body> y </body>. En tu ejemplo está vacío, por lo que verías una página totalmente en blanco. -->
+    
+</body>
+<!-- Esta etiqueta le avisa al navegador que ya no hay más contenido visible que mostrar. -->
+Todo lo que el usuario ve (párrafos, imágenes, formularios) debe estar estrictamente antes de esta etiqueta.
+
+</html>
+<!-- Es la etiqueta final de cualquier documento web. --> 
+Indica que el documento HTML ha terminado por completo.
+Después de esta etiqueta, no debe haber absolutamente nada de código. El navegador deja de interpretar el archivo en este punto.
